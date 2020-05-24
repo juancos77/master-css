@@ -409,3 +409,34 @@ button:active {
     font-size: 14px;
     box-shadow: 0px 0px 2px gray;
 }
+
+/*RESPONSIVE*/
+@media (max-width: 1048px) {
+    #nav {
+        width: 100vw;
+        height: auto;
+    }
+    #nav ul {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+    }
+    #nav > ul > li {
+        line-height: 40px;
+        float: none;
+        height: auto;
+        text-align: center;
+        font-size: 20px;
+    }
+    #aside {
+        width: 100vw;
+        margin: 0px;
+    }
+    #aside .widget {
+        border-bottom: none;
+    }
+    #sections {
+        clear: both;
+    }
+}
